@@ -1,0 +1,17 @@
+
+/*removendo o CSS padrao para um melhor aproveitamento */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    font-family: roboto;
+}
+
+body{
+    background-color: #07689f;
+
+}
+

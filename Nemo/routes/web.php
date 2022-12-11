@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\ItemController;
+
 Route::get('/', function () {
     return view('login');
 });
+
+Route::get('/items/create',[ItemController::class,'create']);
+
+Route::get('/after', function () {
+    return view('after');
+});
+
+

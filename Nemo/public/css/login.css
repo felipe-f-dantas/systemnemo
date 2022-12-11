@@ -1,17 +1,18 @@
+
 /*removendo o CSS padrao para um melhor aproveitamento */
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
     color: black;
     border: none;
+    font-family: roboto;
 }
 
 body{
-    background-image: url(../img/bg2draw.webp);
-    background-size: cover;
+    background-color: #07689f;
+
 }
 
 textarea:focus,input:focus{
@@ -25,6 +26,7 @@ a, label{
 a:hover{
     color: blue;
 }
+
 
 /*container Login */
 
